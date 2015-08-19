@@ -93,6 +93,150 @@ var _hmt = _hmt || [];
       <div class="outer">
         <section id="main">
   
+    <article id="post-ubuntu-soft-list" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    
+<a href="/2013/05/09/ubuntu-soft-list/" class="article-date">
+  <time datetime="2013-05-09T14:36:50.000Z" itemprop="datePublished">2013-05-09</time>
+</a>
+
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Ubuntu/">Ubuntu</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2013/05/09/ubuntu-soft-list/">Ubuntu软件列表</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>记录一下我的Ubuntu中安装的软件</p>
+<ul>
+<li><p>系统</p>
+<ul>
+<li><a href="http://ubuntu-tweak.com">Ubuntu Tweak</a>
+        
+          <p class="article-more-link">
+            <a href="/2013/05/09/ubuntu-soft-list/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+	  
+	  <a data-url="http://howiefh.github.io/2013/05/09/ubuntu-soft-list/" data-id="cidi5eqaa008n9udukyvt23jy" data_title="Ubuntu软件列表" data_summary="记录一下我的Ubuntu中安装的软件
+
+系统
+
+Ubu..." class="article-share-link">Share</a>
+      
+
+      
+        <a href="http://howiefh.github.io/2013/05/09/ubuntu-soft-list/#ds-thread" class="ds-thread-count article-comment-link" data-thread-key="/2013/05/09/ubuntu-soft-list/">暂无评论</a>
+      
+	  
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ubuntu/">Ubuntu</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/软件/">软件</a></li></ul>
+
+	  
+<span>
+Updated:<time datetime="2014-12-24T07:40:53.000Z" itemprop="dateModified">2014-12-24</time>
+</span>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+<!-- 多说评论框 start -->
+
+<!-- 多说评论框 end -->
+
+  
+    <article id="post-git-note" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    
+<a href="/2013/05/02/git-note/" class="article-date">
+  <time datetime="2013-05-02T10:31:29.000Z" itemprop="datePublished">2013-05-02</time>
+</a>
+
+
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Git/">Git</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2013/05/02/git-note/">Git学习笔记</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="git别名">git别名</h2><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="label">git</span> config --<span class="preprocessor">global</span> <span class="preprocessor">alias</span>.ci <span class="string">"commit"</span></span><br><span class="line"><span class="label">git</span> config --<span class="preprocessor">global</span> <span class="preprocessor">alias</span>.co <span class="string">"chechout"</span></span><br><span class="line"><span class="label">git</span> config --<span class="preprocessor">global</span> <span class="preprocessor">alias</span>.st <span class="string">"status"</span></span><br><span class="line"><span class="label">git</span> config --<span class="preprocessor">global</span> <span class="preprocessor">alias</span>.<span class="keyword">br </span><span class="string">"branch"</span></span><br></pre></td></tr></table></figure>
+<h2 id="忽略文件">忽略文件</h2><p>如果是版本库级别的忽略用<code>.gitignore</code>；如果仅仅是个人的忽略用<code>.git/info/exclude</code>，不会将此设置传播出去  </p>
+<p>忽略规则:<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 此为注释 – 将被 Git 忽略</span></span><br><span class="line">*.a		<span class="comment"># 忽略所有 .a 结尾的文件</span></span><br><span class="line">!lib.a		<span class="comment"># 但 lib.a 除外</span></span><br><span class="line">/TODO		<span class="comment"># 仅仅忽略项目根目录下的 <span class="doctag"><span class="keyword">TODO</span></span> 文件，不包括 subdir/<span class="doctag"><span class="keyword">TODO</span></span></span></span><br><span class="line">build/		<span class="comment"># 忽略 build/ 目录下的所有文件</span></span><br><span class="line">doc/*.txt	<span class="comment"># 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt</span></span><br></pre></td></tr></table></figure></p>
+        
+          <p class="article-more-link">
+            <a href="/2013/05/02/git-note/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+	  
+	  <a data-url="http://howiefh.github.io/2013/05/02/git-note/" data-id="cidi5eqag008r9udu1shf4w0a" data_title="Git学习笔记" data_summary="git别名1234git config --globa..." class="article-share-link">Share</a>
+      
+
+      
+        <a href="http://howiefh.github.io/2013/05/02/git-note/#ds-thread" class="ds-thread-count article-comment-link" data-thread-key="/2013/05/02/git-note/">暂无评论</a>
+      
+	  
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li></ul>
+
+	  
+<span>
+Updated:<time datetime="2015-03-05T14:43:18.000Z" itemprop="dateModified">2015-03-05</time>
+</span>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+<!-- 多说评论框 start -->
+
+<!-- 多说评论框 end -->
+
+  
     <article id="post-reset-forgot-mysql-root-password" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     
@@ -132,7 +276,7 @@ var _hmt = _hmt || [];
     </div>
     <footer class="article-footer">
 	  
-	  <a data-url="http://howiefh.github.io/2013/04/29/reset-forgot-mysql-root-password/" data-id="cic232j5r008spdduhjg2u1ak" data_title="Ubuntu下重置忘记的MySql root密码" data_summary="有时，我们可能会忘记mysql root密码，这时我们..." class="article-share-link">Share</a>
+	  <a data-url="http://howiefh.github.io/2013/04/29/reset-forgot-mysql-root-password/" data-id="cidi5eqan008z9udu5cijvvry" data_title="Ubuntu下重置忘记的MySql root密码" data_summary="有时，我们可能会忘记mysql root密码，这时我们..." class="article-share-link">Share</a>
       
 
       
@@ -200,7 +344,7 @@ Updated:<time datetime="2014-12-24T07:40:20.000Z" itemprop="dateModified">2014-1
     </div>
     <footer class="article-footer">
 	  
-	  <a data-url="http://howiefh.github.io/2013/04/29/xiaomi2-connect-ubuntu12.04-debugging/" data-id="cic232j5l008npdduzl3f235s" data_title="小米2连接Ubuntu12.04进行调试" data_summary="运行lsusb打开终端，在未连接小米的情况下运行lsu..." class="article-share-link">Share</a>
+	  <a data-url="http://howiefh.github.io/2013/04/29/xiaomi2-connect-ubuntu12.04-debugging/" data-id="cidi5eqaj008u9udu421sslk7" data_title="小米2连接Ubuntu12.04进行调试" data_summary="运行lsusb打开终端，在未连接小米的情况下运行lsu..." class="article-share-link">Share</a>
       
 
       
@@ -267,7 +411,7 @@ Updated:<time datetime="2014-12-24T07:40:31.000Z" itemprop="dateModified">2014-1
     </div>
     <footer class="article-footer">
 	  
-	  <a data-url="http://howiefh.github.io/2013/04/26/use-hexo/" data-id="cic232j5v008xpdduj991wjkd" data_title="hexo使用笔记" data_summary="折腾Otcopress时发现了hexo，主题很合我胃口..." class="article-share-link">Share</a>
+	  <a data-url="http://howiefh.github.io/2013/04/26/use-hexo/" data-id="cidi5eqar00949uduuatc5uhe" data_title="hexo使用笔记" data_summary="折腾Otcopress时发现了hexo，主题很合我胃口..." class="article-share-link">Share</a>
       
 
       
@@ -324,62 +468,19 @@ Updated:<time datetime="2014-12-24T07:39:24.000Z" itemprop="dateModified">2014-1
     
     <div class="article-entry" itemprop="articleBody">
       
-		
-		<div id="toc" class="toc-article">
-			<h2 class="toc-title"><span>Contents</span></h2>
-		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Visual_Studio中的Vim插件"><span class="toc-number">1.</span> <span class="toc-text">Visual Studio中的Vim插件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ViEmu（收费）"><span class="toc-number">1.1.</span> <span class="toc-text">ViEmu（收费）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VsVim（免费）"><span class="toc-number">1.2.</span> <span class="toc-text">VsVim（免费）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#visual_studio-vim（免费）"><span class="toc-number">1.3.</span> <span class="toc-text">visual_studio.vim（免费）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VisVim（免费）"><span class="toc-number">1.4.</span> <span class="toc-text">VisVim（免费）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Eclipse中的vim插件"><span class="toc-number">2.</span> <span class="toc-text">Eclipse中的vim插件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#viPlugin（收费）"><span class="toc-number">2.1.</span> <span class="toc-text">viPlugin（收费）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vrapper（免费）"><span class="toc-number">2.2.</span> <span class="toc-text">Vrapper（免费）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VimPlugin（免费）"><span class="toc-number">2.3.</span> <span class="toc-text">VimPlugin（免费）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#eclim（免费）"><span class="toc-number">2.4.</span> <span class="toc-text">eclim（免费）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Netbeans_IDE中的Vim插件：Jvi"><span class="toc-number">3.</span> <span class="toc-text">Netbeans IDE中的Vim插件：Jvi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JetBrains_中的Vim插件：IdeaVIM"><span class="toc-number">4.</span> <span class="toc-text">JetBrains 中的Vim插件：IdeaVIM</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Chrome"><span class="toc-number">5.</span> <span class="toc-text">Chrome</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Vimium"><span class="toc-number">5.1.</span> <span class="toc-text">Vimium</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vrome"><span class="toc-number">5.2.</span> <span class="toc-text">Vrome</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Firefox"><span class="toc-number">6.</span> <span class="toc-text">Firefox</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Pentadactyl"><span class="toc-number">6.1.</span> <span class="toc-text">Pentadactyl</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vimperator"><span class="toc-number">6.2.</span> <span class="toc-text">Vimperator</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在bash中使用vi"><span class="toc-number">7.</span> <span class="toc-text">在bash中使用vi</span></a></li></ol>
-		
-		</div>
-		
-        <h2 id="Visual_Studio中的Vim插件">Visual Studio中的Vim插件</h2><h3 id="ViEmu（收费）">ViEmu（收费）</h3><p>地址：<a href="http://www.viemu.com/" target="_blank" rel="external">http://www.viemu.com/</a></p>
+        <h2 id="Visual_Studio中的Vim插件">Visual Studio中的Vim插件</h2><h3 id="ViEmu（收费）">ViEmu（收费）</h3><p>地址：<a href="http://www.viemu.com/">http://www.viemu.com/</a></p>
 <p><img src="http://www.viemu.com/viemu-movie.gif" alt="ViEmu" title="ViEmu"></p>
 <p>还有可以在Word，Outlook和SQL Server Management Studio中使用的ViEmu。</p>
-<h3 id="VsVim（免费）">VsVim（免费）</h3><p>地址：<a href="https://github.com/jaredpar/VsVim/" target="_blank" rel="external">https://github.com/jaredpar/VsVim/</a></p>
-<p>以上两个插件基本命令都有了，不过还是ViEmu更强。</p>
-<h3 id="visual_studio-vim（免费）">visual_studio.vim（免费）</h3><p>地址：<a href="http://www.vim.org/scripts/script.php?script_id=864" target="_blank" rel="external">http://www.vim.org/scripts/script.php?script_id=864</a></p>
-<p>支持Visual Studio 2003, 2005 and 2008</p>
-<p>这个没用过，只是当时在官网上看到过。</p>
-<h3 id="VisVim（免费）">VisVim（免费）</h3><p>以上都只是支持Visual Studio，如果还在用VC6.0可以考虑一下这个，此插件是打开vim来编辑当前文件的，并且vim得是OLE的GUI版本才行。</p>
-<p>使用方法可以参考<a href="http://blog.csdn.net/absurd/article/details/1164127" target="_blank" rel="external">http://blog.csdn.net/absurd/article/details/1164127</a></p>
-<h2 id="Eclipse中的vim插件">Eclipse中的vim插件</h2><h3 id="viPlugin（收费）">viPlugin（收费）</h3><p>地址：<a href="http://www.viplugin.com/" target="_blank" rel="external">http://www.viplugin.com/</a></p>
-<p>不错的插件，功能上比其他的要好，不过要收费。</p>
-<h3 id="Vrapper（免费）">Vrapper（免费）</h3><p>地址：<a href="http://vrapper.sourceforge.net" target="_blank" rel="external">http://vrapper.sourceforge.net</a></p>
-<p>Vrapper也比较不错，但是比上面那位还是弱点。</p>
-<p>已知的问题有当要删的词位于行末时dw会连换行符也删掉，搜索结果不高亮。</p>
-<h3 id="VimPlugin（免费）">VimPlugin（免费）</h3><p>地址：<a href="http://sourceforge.net/projects/vimplugin/" target="_blank" rel="external">http://sourceforge.net/projects/vimplugin/</a></p>
-<p>VimPlugin需要gvim的支持。</p>
-<p>使用方法可以参考：<a href="http://akunamotata.iteye.com/blog/324637" target="_blank" rel="external">http://akunamotata.iteye.com/blog/324637</a></p>
-<h3 id="eclim（免费）">eclim（免费）</h3><p>eclim是直接调用了vim，而不是模拟。</p>
-<p>地址：<a href="http://eclim.org/" target="_blank" rel="external">http://eclim.org/</a></p>
-<p>项目主页：<a href="http://eclim.sourceforge.net/" target="_blank" rel="external">http://eclim.sourceforge.net/</a></p>
-<p>关于eclipse中的插件还可以参考：<a href="http://paddy-w.iteye.com/blog/969366" target="_blank" rel="external">http://paddy-w.iteye.com/blog/969366</a></p>
-<h2 id="Netbeans_IDE中的Vim插件：Jvi">Netbeans IDE中的Vim插件：Jvi</h2><p>地址：<a href="http://jvi.sourceforge.net/" target="_blank" rel="external">http://jvi.sourceforge.net/</a></p>
-<p>jVi是Vim一些基本功能的JAVA版实现。在netbeans里面可以很方便地启用和禁用jVi编辑器。jVi目前支持超过200个vim命令：</p>
-<p><a href="http://jvi.sourceforge.net/vimhelp/help.txt.html#reference_toc" target="_blank" rel="external">http://jvi.sourceforge.net/vimhelp/help.txt.html#reference_toc</a></p>
-<h2 id="JetBrains_中的Vim插件：IdeaVIM">JetBrains 中的Vim插件：IdeaVIM</h2><p>地址：<a href="https://plugins.jetbrains.com/plugin/164" target="_blank" rel="external">https://plugins.jetbrains.com/plugin/164</a></p>
-<p>按ctrl+alt+v 可启用此Vim模拟器。</p>
-<h2 id="Chrome">Chrome</h2><h3 id="Vimium">Vimium</h3><p>地址：<a href="https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb" target="_blank" rel="external">https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb</a></p>
-<p>用这个插件的人貌似比较多，？可以查看可以使用的命令。</p>
-<p>具体使用可以参考<a href="http://kejibo.com/chrome-vimium/" target="_blank" rel="external">http://kejibo.com/chrome-vimium/</a></p>
-<h3 id="Vrome">Vrome</h3><p>地址：<a href="https://chrome.google.com/webstore/detail/godjoomfiimiddapohpmfklhgmbfffjj" target="_blank" rel="external">https://chrome.google.com/webstore/detail/godjoomfiimiddapohpmfklhgmbfffjj</a></p>
-<p>最近才发现另一个不错的插件 Vrome，前身是Vimlike Smooziee，作者是国人，支持一下。感觉功能比Vimium强，不过似乎不太火。</p>
-<p>特色：</p>
-<p>缩放网页</p>
-<p>C-y 缩短当前网址，并且复制缩短后的地址到剪贴板（此功能需要设置，此插件设置很不错，可以像配置vim一样简单配置下）</p>
-<p>C-i  使用外部编辑器编辑等。</p>
-<p>具体可以参考：<a href="http://linuxtoy.org/archives/vimlike-smooziee-chrome-vim-extension.html#comment-133032" target="_blank" rel="external">http://linuxtoy.org/archives/vimlike-smooziee-chrome-vim-extension.html#comment-133032</a></p>
-<h2 id="Firefox">Firefox</h2><h3 id="Pentadactyl">Pentadactyl</h3><p>地址：<a href="https://addons.mozilla.org/en-US/firefox/addon/pentadactyl/" target="_blank" rel="external">https://addons.mozilla.org/en-US/firefox/addon/pentadactyl/</a></p>
-<h3 id="Vimperator">Vimperator</h3><p>地址：<a href="https://addons.mozilla.org/en-US/firefox/addon/vimperator/" target="_blank" rel="external">https://addons.mozilla.org/en-US/firefox/addon/vimperator/</a></p>
-<p>不怎么用火狐，感兴趣的话可以参考：<a href="http://xbeta.info/vimperator.htm" target="_blank" rel="external">http://xbeta.info/vimperator.htm</a></p>
-<h2 id="在bash中使用vi">在bash中使用vi</h2><p>Bash中默认是emacs模，你可以用命令<code>set -o vi</code>来设置为vi模式。如果想一直使用vi模式，你可以把<code>set -o vi</code>加入到家目录下的配置文件<code>.bashrc</code>中。</p>
-<p>其实还可以用autohotkey来在别的软件中实现vim模式的，有人已经写了一个叫Vim_Mode的脚本，有兴趣的可以下载使用：<a href="http://pan.baidu.com/s/1nt9W6oh" target="_blank" rel="external">http://pan.baidu.com/s/1nt9W6oh</a></p>
-
+        
+          <p class="article-more-link">
+            <a href="/2012/03/17/software-which-behaves-like-vim/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
 	  
-	  <a data-url="http://howiefh.github.io/2012/03/17/software-which-behaves-like-vim/" data-id="cic232j5z0092pddu9i9xh3y6" data_title="用vim的方式操作你的软件" data_summary="Visual Studio中的Vim插件ViEmu（收..." class="article-share-link">Share</a>
+	  <a data-url="http://howiefh.github.io/2012/03/17/software-which-behaves-like-vim/" data-id="cidi5eqax00999uduwgi6spot" data_title="用vim的方式操作你的软件" data_summary="Visual Studio中的Vim插件ViEmu（收..." class="article-share-link">Share</a>
       
 
       
@@ -391,7 +492,7 @@ Updated:<time datetime="2014-12-24T07:39:24.000Z" itemprop="dateModified">2014-1
 
 	  
 <span>
-Updated:<time datetime="2015-07-13T15:44:57.000Z" itemprop="dateModified">2015-07-13</time>
+Updated:<time datetime="2015-07-13T15:56:22.000Z" itemprop="dateModified">2015-07-13</time>
 </span>
 
 
@@ -441,7 +542,7 @@ Updated:<time datetime="2015-07-13T15:44:57.000Z" itemprop="dateModified">2015-0
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android/">Android</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/C/">C</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Database/">Database</a><span class="category-list-count">12</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Database/MongoDB/">MongoDB</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Database/MySQL/">MySQL</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Eclipse/">Eclipse</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/FTP/">FTP</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">19</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/FreeMarker/">FreeMarker</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Java/Shiro/">Shiro</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaEE/">JavaEE</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/JavaEE/Hibernate/">Hibernate</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaEE/JSP/">JSP</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaEE/Spring/">Spring</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/jQuery/">jQuery</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/PHP/">PHP</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Suse/">Suse</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Ubuntu/">Ubuntu</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Vim/">Vim</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/编程/">编程</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/软件/">软件</a><span class="category-list-count">1</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android/">Android</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/C/">C</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Database/">Database</a><span class="category-list-count">13</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Database/MongoDB/">MongoDB</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Database/MySQL/">MySQL</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Eclipse/">Eclipse</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/FTP/">FTP</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">20</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/FreeMarker/">FreeMarker</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Java/Shiro/">Shiro</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaEE/">JavaEE</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/JavaEE/Hibernate/">Hibernate</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaEE/JSP/">JSP</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaEE/Spring/">Spring</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/jQuery/">jQuery</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/PHP/">PHP</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Suse/">Suse</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Ubuntu/">Ubuntu</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Vim/">Vim</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/编程/">编程</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/软件/">软件</a><span class="category-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -451,7 +552,7 @@ Updated:<time datetime="2015-07-13T15:44:57.000Z" itemprop="dateModified">2015-0
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Android/" style="font-size: 14.75px; color: #65bfa7">Android</a> <a href="/tags/C/" style="font-size: 13.88px; color: #71c1c2">C</a> <a href="/tags/CAS/" style="font-size: 13px; color: #7dc3de">CAS</a> <a href="/tags/Chrome/" style="font-size: 13px; color: #7dc3de">Chrome</a> <a href="/tags/Clean-Code/" style="font-size: 13.88px; color: #71c1c2">Clean Code</a> <a href="/tags/Eclipse/" style="font-size: 13px; color: #7dc3de">Eclipse</a> <a href="/tags/FTP/" style="font-size: 13.88px; color: #71c1c2">FTP</a> <a href="/tags/FreeMarker/" style="font-size: 14.75px; color: #65bfa7">FreeMarker</a> <a href="/tags/Gcc/" style="font-size: 13px; color: #7dc3de">Gcc</a> <a href="/tags/Git/" style="font-size: 14.75px; color: #65bfa7">Git</a> <a href="/tags/Github-Pages/" style="font-size: 13px; color: #7dc3de">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 14.75px; color: #65bfa7">Hexo</a> <a href="/tags/Hibernate/" style="font-size: 13px; color: #7dc3de">Hibernate</a> <a href="/tags/JSP/" style="font-size: 13px; color: #7dc3de">JSP</a> <a href="/tags/JVM/" style="font-size: 14.75px; color: #65bfa7">JVM</a> <a href="/tags/Java/" style="font-size: 13.88px; color: #71c1c2">Java</a> <a href="/tags/JavaMail/" style="font-size: 13px; color: #7dc3de">JavaMail</a> <a href="/tags/JavaScript/" style="font-size: 13px; color: #7dc3de">JavaScript</a> <a href="/tags/Linux/" style="font-size: 13.88px; color: #71c1c2">Linux</a> <a href="/tags/Log/" style="font-size: 13px; color: #7dc3de">Log</a> <a href="/tags/Markdown/" style="font-size: 13.88px; color: #71c1c2">Markdown</a> <a href="/tags/MongoDB/" style="font-size: 20px; color: #1db400">MongoDB</a> <a href="/tags/MySQL/" style="font-size: 13.88px; color: #71c1c2">MySQL</a> <a href="/tags/PHP/" style="font-size: 16.5px; color: #4dbc6f">PHP</a> <a href="/tags/Rhythmbox/" style="font-size: 13px; color: #7dc3de">Rhythmbox</a> <a href="/tags/SSO/" style="font-size: 13px; color: #7dc3de">SSO</a> <a href="/tags/Servlet/" style="font-size: 13px; color: #7dc3de">Servlet</a> <a href="/tags/Shiro/" style="font-size: 13.88px; color: #71c1c2">Shiro</a> <a href="/tags/Spring/" style="font-size: 13.88px; color: #71c1c2">Spring</a> <a href="/tags/Suse/" style="font-size: 13px; color: #7dc3de">Suse</a> <a href="/tags/Thinking-in-Java/" style="font-size: 19.13px; color: #29b61c">Thinking in Java</a> <a href="/tags/Ubuntu/" style="font-size: 17.38px; color: #41ba53">Ubuntu</a> <a href="/tags/Vim/" style="font-size: 18.25px; color: #35b838">Vim</a> <a href="/tags/VirtualBox/" style="font-size: 13px; color: #7dc3de">VirtualBox</a> <a href="/tags/Vsftpd/" style="font-size: 13px; color: #7dc3de">Vsftpd</a> <a href="/tags/jQuery/" style="font-size: 13px; color: #7dc3de">jQuery</a> <a href="/tags/pam-mysql/" style="font-size: 13px; color: #7dc3de">pam_mysql</a> <a href="/tags/小米/" style="font-size: 13px; color: #7dc3de">小米</a> <a href="/tags/软件/" style="font-size: 15.63px; color: #59bd8b">软件</a>
+      <a href="/tags/Android/" style="font-size: 14.75px; color: #65bfa7">Android</a> <a href="/tags/C/" style="font-size: 13.88px; color: #71c1c2">C</a> <a href="/tags/CAS/" style="font-size: 13px; color: #7dc3de">CAS</a> <a href="/tags/Chrome/" style="font-size: 13px; color: #7dc3de">Chrome</a> <a href="/tags/Clean-Code/" style="font-size: 13.88px; color: #71c1c2">Clean Code</a> <a href="/tags/Database/" style="font-size: 13px; color: #7dc3de">Database</a> <a href="/tags/Eclipse/" style="font-size: 13px; color: #7dc3de">Eclipse</a> <a href="/tags/FTP/" style="font-size: 13.88px; color: #71c1c2">FTP</a> <a href="/tags/FreeMarker/" style="font-size: 14.75px; color: #65bfa7">FreeMarker</a> <a href="/tags/Gcc/" style="font-size: 13px; color: #7dc3de">Gcc</a> <a href="/tags/Git/" style="font-size: 14.75px; color: #65bfa7">Git</a> <a href="/tags/Github-Pages/" style="font-size: 13px; color: #7dc3de">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 14.75px; color: #65bfa7">Hexo</a> <a href="/tags/Hibernate/" style="font-size: 13px; color: #7dc3de">Hibernate</a> <a href="/tags/JSP/" style="font-size: 13px; color: #7dc3de">JSP</a> <a href="/tags/JVM/" style="font-size: 14.75px; color: #65bfa7">JVM</a> <a href="/tags/Java/" style="font-size: 14.75px; color: #65bfa7">Java</a> <a href="/tags/JavaMail/" style="font-size: 13px; color: #7dc3de">JavaMail</a> <a href="/tags/JavaScript/" style="font-size: 13px; color: #7dc3de">JavaScript</a> <a href="/tags/Linux/" style="font-size: 13.88px; color: #71c1c2">Linux</a> <a href="/tags/Log/" style="font-size: 13px; color: #7dc3de">Log</a> <a href="/tags/Markdown/" style="font-size: 13.88px; color: #71c1c2">Markdown</a> <a href="/tags/MongoDB/" style="font-size: 20px; color: #1db400">MongoDB</a> <a href="/tags/MySQL/" style="font-size: 13.88px; color: #71c1c2">MySQL</a> <a href="/tags/PHP/" style="font-size: 16.5px; color: #4dbc6f">PHP</a> <a href="/tags/Rhythmbox/" style="font-size: 13px; color: #7dc3de">Rhythmbox</a> <a href="/tags/SSO/" style="font-size: 13px; color: #7dc3de">SSO</a> <a href="/tags/Servlet/" style="font-size: 13px; color: #7dc3de">Servlet</a> <a href="/tags/Shiro/" style="font-size: 13.88px; color: #71c1c2">Shiro</a> <a href="/tags/Spring/" style="font-size: 13.88px; color: #71c1c2">Spring</a> <a href="/tags/Suse/" style="font-size: 13px; color: #7dc3de">Suse</a> <a href="/tags/Thinking-in-Java/" style="font-size: 19.13px; color: #29b61c">Thinking in Java</a> <a href="/tags/Ubuntu/" style="font-size: 17.38px; color: #41ba53">Ubuntu</a> <a href="/tags/Vim/" style="font-size: 18.25px; color: #35b838">Vim</a> <a href="/tags/VirtualBox/" style="font-size: 13px; color: #7dc3de">VirtualBox</a> <a href="/tags/Vsftpd/" style="font-size: 13px; color: #7dc3de">Vsftpd</a> <a href="/tags/jQuery/" style="font-size: 13px; color: #7dc3de">jQuery</a> <a href="/tags/pam-mysql/" style="font-size: 13px; color: #7dc3de">pam_mysql</a> <a href="/tags/小米/" style="font-size: 13px; color: #7dc3de">小米</a> <a href="/tags/软件/" style="font-size: 15.63px; color: #59bd8b">软件</a>
     </div>
   </div>
 
@@ -461,7 +562,7 @@ Updated:<time datetime="2015-07-13T15:44:57.000Z" itemprop="dateModified">2015-0
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">June 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">May 2013</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">April 2013</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">March 2012</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">August 2013</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">June 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">May 2013</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">April 2013</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">March 2012</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -644,6 +745,14 @@ new LGY_calendar('g-calendar');
       <ul>
         
           <li>
+            <a href="/2015/08/10/java-web/">Java Web 笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2015/07/25/logical-delete/">逻辑删除</a>
+          </li>
+        
+          <li>
             <a href="/2015/05/22/vim-install-youcompleteme-plugin/">Vim 自动补全插件 YouCompleteMe 安装与配置</a>
           </li>
         
@@ -653,14 +762,6 @@ new LGY_calendar('g-calendar');
         
           <li>
             <a href="/2015/05/12/shiro-note/">Shiro笔记</a>
-          </li>
-        
-          <li>
-            <a href="/2015/05/03/freemarker-XML-processing-note/">FreeMarker-XML处理笔记</a>
-          </li>
-        
-          <li>
-            <a href="/2015/05/02/freemarker-program-development-note/">FreeMarker-程序开发指南笔记</a>
           </li>
         
       </ul>
