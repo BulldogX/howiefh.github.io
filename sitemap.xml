@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://howiefh.github.io/2015/08/28/javascript-reference-type/</loc>
+    <lastmod>2015-08-28T05:03:58.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://howiefh.github.io/2015/08/28/javascript-oop-function-expression-and-async/</loc>
+    <lastmod>2015-08-28T05:03:52.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://howiefh.github.io/2015/08/28/javascript-grammar/</loc>
+    <lastmod>2015-08-28T05:03:45.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://howiefh.github.io/2014/02/03/c-logging-library/</loc>
     <lastmod>2015-08-19T02:13:32.000Z</lastmod>
   </url>
@@ -192,17 +207,12 @@
   </url>
   
   <url>
-    <loc>http://howiefh.github.io/2014/05/08/mongodb-note-4-querying/</loc>
-    <lastmod>2014-12-24T07:55:07.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://howiefh.github.io/2014/06/05/mongodb-note-8-administration/</loc>
     <lastmod>2014-12-24T07:55:07.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://howiefh.github.io/2014/05/26/mongodb-note-5-indexing/</loc>
+    <loc>http://howiefh.github.io/2014/06/04/mongodb-note-7-advanced-topics/</loc>
     <lastmod>2014-12-24T07:55:07.000Z</lastmod>
   </url>
   
@@ -212,7 +222,12 @@
   </url>
   
   <url>
-    <loc>http://howiefh.github.io/2014/06/04/mongodb-note-7-advanced-topics/</loc>
+    <loc>http://howiefh.github.io/2014/05/26/mongodb-note-5-indexing/</loc>
+    <lastmod>2014-12-24T07:55:07.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://howiefh.github.io/2014/05/08/mongodb-note-4-querying/</loc>
     <lastmod>2014-12-24T07:55:07.000Z</lastmod>
   </url>
   
