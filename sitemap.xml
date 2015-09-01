@@ -2,28 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://howiefh.github.io/2015/08/28/javascript-reference-type/</loc>
-    <lastmod>2015-08-28T05:03:58.000Z</lastmod>
+    <loc>http://howiefh.github.io/2015/09/01/javascript-summary/</loc>
+    <lastmod>2015-09-01T04:05:51.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://howiefh.github.io/2015/08/28/javascript-oop-function-expression-and-async/</loc>
-    <lastmod>2015-08-28T05:03:52.000Z</lastmod>
+    <lastmod>2015-09-01T03:35:47.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://howiefh.github.io/2015/08/28/javascript-reference-type/</loc>
+    <lastmod>2015-09-01T02:47:11.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://howiefh.github.io/2015/08/28/javascript-grammar/</loc>
-    <lastmod>2015-08-28T05:03:45.000Z</lastmod>
+    <lastmod>2015-08-30T11:50:14.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://howiefh.github.io/2015/08/10/java-web/</loc>
+    <lastmod>2015-08-28T16:04:26.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://howiefh.github.io/2014/02/03/c-logging-library/</loc>
     <lastmod>2015-08-19T02:13:32.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://howiefh.github.io/2015/08/10/java-web/</loc>
-    <lastmod>2015-08-19T01:57:33.000Z</lastmod>
   </url>
   
   <url>
